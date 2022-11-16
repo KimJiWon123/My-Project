@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  color: rgb(244, 138, 138);
+  margin: 0;
+  padding: 0;
+  }
+
+.bg1 {
+  background-image: url(/pic/bgsk.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+div#DAILY {
+  background-image: url(/pic/pinterest.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.day {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.day h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #f75656;
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 2rem;
+}
+
+.day h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #000dff;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.day1, .day2, .day3, .day4, .day5, .day6 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 700px;
+  margin: 0;
+  margin-top: 5rem;
+  padding: 0;
+  border-radius: 5rem;
+}
+
+.day1:hover,.day2:hover,.day3:hover,.day4:hover,.day5:hover,.day6:hover {
+  filter: brightness(100%);
+  color: rgb(164, 222, 249);
+  box-shadow:0px 0px 40px darkblue;
+  border: solid 5px;
+}
+.day6 {
+  background-image: url(/pic/day6.jpg);
+}
+
+.day5 {
+  background-image: url(/pic/day5.jpg);
+  background-position: bottom;
+}
+
+.day4 {
+  background-image: url(/pic/day4.jpg); 
+}
+
+.day3 {
+  background-image: url(/pic/day3.jpg);
+}
+
+.day2 {
+  background-image: url(/pic/day2.jpg);
+  
+}
+
+.day1 {
+  background-image: url(/pic/day1.jpg);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  margin: 0;
+}
+
+.toptitle {
+  padding-top: 0.5em;
+  padding-right: 4em;
+  color: rgb(88, 255, 255);
+  font-size: 10em;
+  text-shadow: 2px 2px 5px #0a2aff;
+}
+
+.toptitle2 {
+  padding-top: 0.5em;
+  padding-left: 4em;
+  color: hotpink;
+  font-size: 10em;
+  text-shadow: 2px 2px 5px red;
+}
+
+ul {
+  display: flex;
+  justify-content:center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  border-style: none;
+  color: #daa6ff;
+  border-width: 5px;
+}
+
+li a {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: white;
+  background-color: rgba(48, 140, 246, 0.4);
+}
+
+li.home {
+  margin-right: auto;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 136, 255,0.6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px 5px #ff1a0a;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 0.5em 2rem;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: rgb(134, 231, 255);
+}
+
+@media screen and (min-width= 1024px) {
+  .day {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+}
