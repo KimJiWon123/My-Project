@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Itim', cursive;
-  font-family: 'Space Mono', monospace;
+  font-family: "Itim", cursive;
+  font-family: "Space Mono", monospace;
 }
 
 .content1 h1 {
@@ -15,7 +15,7 @@ body {
   width: 800px;
   font-size: 3em;
   text-shadow: 2px 2px 5px #f85b83;
-  text-align:center ;
+  text-align: center;
   border-radius: 40px 999em 999em 40px;
   background: #e6b8ee;
   box-shadow: 5px 8px #ff8e8e;
@@ -34,11 +34,10 @@ p {
   background-position: top;
   height: 26vh;
   padding-top: 3em;
-
 }
 
 .bg1 {
-  background-image: url(/pic/bg.jpg);  
+  background-image: url(/pic/bg.jpg);
   background-size: cover;
   height: 210vh;
   margin: 0;
@@ -63,17 +62,16 @@ div.toptitle {
   box-shadow: 5px 5px #1c2bff;
 }
 
-.toptitle h1{
+.toptitle h1 {
   color: #ffffff;
   font-size: 5em;
   text-shadow: 2px 2px 5px rgb(255, 19, 19);
   text-align: center;
 }
-  
-/*Nav Bar*/
+
 ul {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -129,8 +127,18 @@ nav li a:hover {
   background-color: rgb(134, 231, 255);
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6,
-.image7, .image8, .image9, .image10, .image11, .image12 {
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,9 +225,21 @@ img.party {
 }
 
 .image11 img {
-
+  margin: 2em;
+  width: 300px;
+  height: 400px;
+  box-shadow: 6px 6px #db3e3e;
 }
 
 .image12 img {
-  
+  margin: 2em;
+  width: 600px;
+  height: 300px;
+  box-shadow: 6px 6px #db3e3e;
+}
+
+video {
+  box-shadow: rgba(238, 0, 0, 0.6) 0px 5px 15px;
+  margin-right: 2em;
+  margin-bottom: 2em;
 }
