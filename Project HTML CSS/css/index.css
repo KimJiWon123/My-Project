@@ -32,6 +32,7 @@ div#DAILY {
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 1em;
 }
 
 .day h1 {
