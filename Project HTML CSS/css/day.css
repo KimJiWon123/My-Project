@@ -44,6 +44,30 @@ p {
   padding: 0;
 }
 
+.bgday1 {
+  height: 213vh;
+}
+
+.bgday2 {
+  height: 214vh;
+}
+
+.bgday3 {
+  height: 218vh;
+}
+
+.bgday4 {
+  height: 194vh;
+}
+
+.bgday5 {
+  height: 193vh;
+}
+
+.bgday6 {
+  height: 198vh;
+}
+
 .textbg {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
@@ -242,4 +266,40 @@ video {
   box-shadow: rgba(238, 0, 0, 0.6) 0px 5px 15px;
   margin-right: 2em;
   margin-bottom: 2em;
+}
+
+div.nextprev {
+  display: flex;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+div.nextprev a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+div.nextprev a:hover {
+  background-color: rgb(255, 255, 0);
+  color: black;
+  border: none;
+}
+
+.previous {
+  background-color: #ff55dd;
+  color: rgb(255, 255, 255);
+  border: solid 2px #f73263;
+  margin-right: auto;
+}
+
+.next {
+  background-color: #20d6ff;
+  color: rgb(255, 255, 255);
+  border: solid 2px #513aff;
+}
+
+.round {
+  border-radius: 100%;
 }
