@@ -200,11 +200,3 @@ nav li a {
 nav li a:hover {
   background-color: rgb(134, 231, 255);
 }
-
-@media screen and (min-width= 1024px) {
-  .day {
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-  }
-}
